@@ -1,15 +1,9 @@
-import { MousePointer } from "lucide-react";
-import { Button } from "./components/ui/button";
+import Layout from "./components/layout/Layout.component";
 
 function App() {
   return (
     <>
-      <div className="flex min-h-svh flex-col items-center justify-center">
-        <Button className="cursor-pointer" size={"sm"}>
-          <MousePointer />
-          Click me
-        </Button>
-      </div>
+      <Layout />
     </>
   );
 }
