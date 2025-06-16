@@ -1,0 +1,39 @@
+﻿@TdoApi_HostAddress = https://localhost:7004
+
+POST {{TdoApi_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  "name":"walk dog",
+  "isComplete":true
+}
+
+###
+
+GET {{TdoApi_HostAddress}}/todoitems
+
+###
+
+@id=1
+GET {{TdoApi_HostAddress}}/todoitems/{{id}}
+
+###
+
+PUT {{TdoApi_HostAddress}}/todoitems/{{id}}
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "feed fish",
+  "isComplete": false
+}
+
+###
+
+DELETE {{TdoApi_HostAddress}}/todoitems/{{id}}
+
+###
+
+GET {{TdoApi_HostAddress}}/todoitems/complete
+
+###
