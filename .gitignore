@@ -1,0 +1,97 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+.history/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+*.sw?
+*.user
+*.userosscache
+
+# Build folders
+bin/
+obj/
+out/
+Generated_Code/
+
+# ASP.NET Core
+.vs/
+*.dbmdl
+*.pdb
+*.cache
+*.bak
+*.tmp
+*.tlog
+*.vspscc
+*.iis*
+wwwroot/dist/
+wwwroot/node_modules/
+wwwroot/lib/
+wwwroot/css/
+wwwroot/js/
+
+# Environment files
+.env
+.env.*
+
+# Publish output
+*.Publish.xml
+*.pubxml
+publish/
+artifacts/
+
+# NuGet
+.nuget/
+*.nupkg
+*.snupkg
+packages/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+
+# Rider & ReSharper
+_ReSharper*/
+*.DotSettings.user
+*.sln.iml
+
+# Visual Studio for Mac
+*.pidb
+*.userprefs
+
+# Local database
+*.mdf
+*.ldf
+
+# Secrets
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# Swagger auto-generated files
+swagger/v1/swagger.json
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
